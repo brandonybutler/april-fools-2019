@@ -33,9 +33,6 @@ namespace _1April2019.Payload
             if (run)
             {
                 isRunning = true;
-                // Displays the face window. (excluded from GitHub to protect privacy)
-                // Face face = new Face();
-                // face.Show();
 
                 // Begins all threads.
                 screenRotator.Start();

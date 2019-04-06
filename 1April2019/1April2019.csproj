@@ -60,14 +60,8 @@
     <Compile Include="payloads\IPayload.cs" />
     <Compile Include="payloads\ReversingScreen.cs" />
     <Compile Include="resources\Display.cs" />
-    <Compile Include="resources\Face.xaml.cs">
-      <DependentUpon>Face.xaml</DependentUpon>
-    </Compile>
     <Compile Include="resources\KeyboardHook.cs" />
     <Compile Include="resources\PayloadPointer.cs" />
-    <Compile Include="payloads\SecurityAlert.xaml.cs">
-      <DependentUpon>SecurityAlert.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -94,19 +88,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="payloads\SecurityAlert.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="resources\Face.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="assets\sounds\seinfeld.wav" />
-    <Resource Include="assets\images\detnsw.png" />
-    <Resource Include="assets\images\face.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
