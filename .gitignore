@@ -338,11 +338,3 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-
-*.resx
-*.jpg
-*.png
-
-# Excluded feature
-SecurityAlert.xaml
-SecurityAlert.xaml.cs
