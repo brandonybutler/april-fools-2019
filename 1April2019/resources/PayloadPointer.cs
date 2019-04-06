@@ -15,8 +15,7 @@ namespace _1April2019.Resource
      **/
     public enum Checkpoint
     {
-        REVERSING_SCREEN,
-        SECURITY_ALERT
+        REVERSING_SCREEN
     }
     #endregion
 
@@ -42,11 +41,6 @@ namespace _1April2019.Resource
                     #pragma warning disable IDE0059
                     ReversingScreen reversingScreen = new ReversingScreen(true);
                     #pragma warning restore IDE0059
-                    break;
-                case Checkpoint.SECURITY_ALERT:
-                    // Instantiate a new instance of the SecurityAlert class, and show the dialog.
-                    SecurityAlert securityAlert = new SecurityAlert();
-                    securityAlert.ShowDialog();
                     break;
                 default:
                     break;
