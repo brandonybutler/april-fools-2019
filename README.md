@@ -19,6 +19,7 @@ press Enter on the keyboard or the OK button.
 3. Double-click `Local`, and delete a folder named `1April2019`.
 4. Return to the `AppData` folder.
 5. Navigate to `Roaming\Microsoft\Windows\Start Menu\Programs\Startup` and delete a file named `activation.vbs`.
+6. Optionally, you may want to empty the recycle bin however this is not required.
 
 # Licensing
 You may use this code for your own purposes, however, in this situation, you are responsible for your own applications and I assume
